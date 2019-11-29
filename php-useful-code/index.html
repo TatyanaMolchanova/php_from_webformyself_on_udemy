@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    error_reporting(-1); // output all errors show
+
+
+    echo $is_auth;
+    var_dump($is_auth); // function for debug
+
+    echo gettype($is_auth); // function for debug seldom used
+
+
+
+    $str2 = "This is string. $var"; // variable reflect its value in double quotes
+    var_dump($str2);
+
+    $str3 = "This is string. {$var}"; // variable in figure quotes
+    var_dump($str3);
+
+
+    // HEREDOC - code withous symbol of screening - кавычки без символа экранирования
+    $str4 = <<<LAVE 
+    "LALALA "string". {$var}"
+    LAVE;
+
+    // one empty string must be after closing
+    // opening and closing word must be the same
+    echo $str4;
+        
+</body>
+</html>
