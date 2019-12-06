@@ -1,3 +1,17 @@
+<?php
+
+error_reporting(-1);
+
+// $i = 1;
+// while ($i <= 10) {
+//     echo $i . '<br>';
+//     $i++;
+// }
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +55,71 @@
     // $var--;
     // var_dump($var);
 
+// task
+
+// $i = 1;
+// echo "<table border='1'> \n";
+// while ($i <= 10) {
+//     echo "\t <tr> \n";
+//     $n = 1;
+//     while ($n <= 3) {
+//         echo "\t\t<td>Row $i  | Col - $n</td>\n";
+//         $n++;
+//     }
+//     echo "\t</tr>\n";
+//     $i++;
+// }
+// echo "</table>";
+
+
+
+// task 2
+
+// $year = 1900;
+// echo "<select> \n";
+//     while ($year <= 2019) {
+//         echo "\t<option value='$year'>$year</option>";
+//         $year++;
+//     }
+// echo "</select>";
+
+// task 3
+
+// $i = 11;
+// while ($i <= 10) {
+//     echo $i++ . '<br>';
+// }
+
+// $i = 11;
+// do {
+//     echo $i++ . '<br>';
+// } while ($i <= 10)
+
+
+// multiply table
+
+$i = 1;
+echo "<table border='1'> \n";
+while ($i <= 10) {
+    echo "\t <tr> \n";
+    $n = 1;
+    while ($n <= 10) {
+        echo "\t\t<td>$i * $n</td>\n";
+        $n++;
+    }
+    echo "\t</tr>\n";
+    $i++;
+}
+echo "</table>";
+
+
+
 ?>
+
+
+
+
+
 
 
 
