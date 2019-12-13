@@ -104,7 +104,9 @@ while ($i <= 10) {
     echo "\t <tr> \n";
     $n = 1;
     while ($n <= 10) {
-        echo "\t\t<td>$i * $n</td>\n";
+        $k = $i * $n;
+        // echo "\t\t<td>$k</td>\n";
+        echo "\t\t<td>$i * $n = " . $i * $n . "</td>\n";
         $n++;
     }
     echo "\t</tr>\n";
