@@ -32,6 +32,13 @@
     // one empty string must be after closing
     // opening and closing word must be the same
     echo $str4;
+
+    // dropdown with years
+    echo '<select>';
+    for ($i = 1900; $i <= 2016; $i++) {
+        echo "<option>$i</option>";
+    }
+    echo '</select>';
         
 </body>
 </html>
